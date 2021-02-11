@@ -1,0 +1,27 @@
+.output
+{
+background-color: aquamarine;
+ height: 90vh;
+width: 100%;
+border: 1px solid black;
+overflow: hidden;
+cursor: grab;
+}
+
+.box{
+    position: relative;
+    left:50%;
+    top:50%; 
+    width: 100px;
+    height:100px;
+    border-radius: 15px;
+    background-image:url('https://i.pinimg.com/originals/4e/87/bb/4e87bbf52a5c5d3134865d0d87f5d09b.png');
+    background-size: 90px;
+}
+.s{
+    color:green;
+}
+.a{
+    color:red;
+    float:right;
+}
